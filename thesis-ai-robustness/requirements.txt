@@ -1,0 +1,9 @@
+numpy
+pandas
+yfinance
+arch
+tensorflow
+scikit-learn
+matplotlib
+joblib
+
