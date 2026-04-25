@@ -6,7 +6,6 @@ import json
 from pathlib import Path
 from typing import Dict, Any, List
 
-
 import pandas as pd
 
 from src.data_loader import SP500DataLoader

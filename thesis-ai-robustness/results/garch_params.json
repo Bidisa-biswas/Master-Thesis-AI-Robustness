@@ -1,0 +1,20 @@
+{
+    "pre_crisis_2008": {
+        "omega": 0.016064,
+        "alpha": 0.0,
+        "gamma": 0.1359,
+        "beta": 0.9204,
+        "persistence": 0.9884,
+        "period": "1997-2007",
+        "description": "Normal market conditions before 2008 crisis"
+    },
+    "crisis_2008": {
+        "omega": 0.028434,
+        "alpha": 0.0,
+        "gamma": 0.1301,
+        "beta": 0.9199,
+        "persistence": 0.9849,
+        "period": "2007-2009",
+        "description": "2008 financial crisis"
+    }
+}
