@@ -10,6 +10,7 @@ from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 from typing import List, Optional, Tuple
+import seaborn as sns
 
 import pandas as pd
 import yfinance as yf

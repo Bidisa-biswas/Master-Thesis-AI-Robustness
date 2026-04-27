@@ -1,20 +1,38 @@
 {
     "pre_crisis_2008": {
-        "omega": 0.016064,
+        "omega": 0.000161,
         "alpha": 0.0,
         "gamma": 0.1359,
-        "beta": 0.9204,
+        "beta": 0.9205,
         "persistence": 0.9884,
         "period": "1997-2007",
         "description": "Normal market conditions before 2008 crisis"
     },
     "crisis_2008": {
-        "omega": 0.028434,
+        "omega": 0.000284,
         "alpha": 0.0,
         "gamma": 0.1301,
         "beta": 0.9199,
         "persistence": 0.9849,
         "period": "2007-2009",
         "description": "2008 financial crisis"
+    },
+    "pre-crisis_Covid": {
+        "omega": 0.03573,
+        "alpha": 0.0,
+        "gamma": 0.2793,
+        "beta": 0.8161,
+        "persistence": 0.9558,
+        "period": "2010-2019",
+        "description": "Normal Market condition before COVID crisis"
+    },
+    "Covid_Crisis": {
+        "omega": 0.114953,
+        "alpha": 0.1762,
+        "gamma": 0.3328,
+        "beta": 0.6238,
+        "persistence": 0.9664,
+        "period": "2020-2021",
+        "description": "COVID crisis"
     }
 }
