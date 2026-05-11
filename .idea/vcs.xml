@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thesis-ai-robustness/Hybrid-Arima-LSTM" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thesis-ai-robustness/Stock-Price-Movement-Prediction" vcs="Git" />
   </component>
 </project>
