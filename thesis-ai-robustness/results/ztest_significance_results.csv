@@ -1,0 +1,7 @@
+Scenario,Accuracy (%),Δ vs Normal (pp),z-statistic,p-value,Significance,Finding
+Normal,49.9,—,—,—,—,Baseline
+2008 Crisis,49.58,-0.32,-0.453,0.6509,ns,not significant
+COVID Crisis,49.05,-0.85,-1.202,0.2293,ns,not significant
+Synthetic Extreme,49.79,-0.11,-0.156,0.8764,ns,not significant
+Non-linear Squeeze,50.95,+1.05,1.485,0.1375,ns,not significant
+Structural Break,49.26,-0.64,-0.905,0.3654,ns,not significant
