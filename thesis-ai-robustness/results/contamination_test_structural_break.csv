@@ -1,0 +1,7 @@
+Contamination (days),Accuracy (%),HIGH Label (%),vs Normal (pp),Phase
+0,52.86,48.3,+3.17,Phase 1: Inflation
+5,51.49,44.8,+1.80,Phase 1: Inflation
+10,51.34,44.7,+1.65,Phase 1: Inflation
+20,51.74,43.1,+2.05,Phase 2: Normalization
+30,51.96,44.1,+2.27,Phase 3: Inversion
+40,52.55,43.8,+2.86,Phase 3: Inversion

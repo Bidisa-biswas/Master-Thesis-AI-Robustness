@@ -1,0 +1,62 @@
+{
+    "normal": {
+        "omega": 0.016064,
+        "alpha": 0.0,
+        "gamma": 0.1359,
+        "beta": 0.9204,
+        "shock_multiplier": 1.0,
+        "source": "estimated",
+        "color": "blue",
+        "description": "Normal (\u03c9=0.016064)"
+    },
+    "crisis_2008": {
+        "omega": 0.028434,
+        "alpha": 0.0,
+        "gamma": 0.1301,
+        "beta": 0.9199,
+        "shock_multiplier": 1.0,
+        "source": "estimated",
+        "color": "red",
+        "description": "2008 Crisis (\u03c9=0.028434)"
+    },
+    "pre_covid": {
+        "omega": 0.03573,
+        "alpha": 0.0,
+        "gamma": 0.2793,
+        "beta": 0.8161,
+        "shock_multiplier": 1.0,
+        "source": "estimated",
+        "color": "green",
+        "description": "Pre-COVID (\u03c9=0.035730)"
+    },
+    "covid": {
+        "omega": 0.114953,
+        "alpha": 0.1762,
+        "gamma": 0.3328,
+        "beta": 0.6238,
+        "shock_multiplier": 1.0,
+        "source": "estimated",
+        "color": "orange",
+        "description": "COVID Crisis (\u03c9=0.114953)"
+    },
+    "synthetic_extreme": {
+        "omega": 0.048192,
+        "alpha": 0.0,
+        "gamma": 0.1359,
+        "beta": 0.9204,
+        "shock_multiplier": 3.0,
+        "source": "synthetic",
+        "color": "purple",
+        "description": "Synthetic Extreme (3\u00d7 baseline, \u03c9=0.048192)"
+    },
+    "structural_break": {
+        "omega": 0.040159999999999994,
+        "alpha": 0.0,
+        "gamma": 0.1359,
+        "beta": 0.9204,
+        "shock_multiplier": 2.5,
+        "source": "synthetic",
+        "color": "darkred",
+        "description": "Structural Break (2.5\u00d7 baseline, \u03c9=0.040160)"
+    }
+}

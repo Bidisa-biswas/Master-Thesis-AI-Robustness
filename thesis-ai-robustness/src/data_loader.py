@@ -156,7 +156,7 @@ class SP500DataLoader:
         df['returns'] = df['adj_close'].pct_change()
 
         # Add log returns
-        df['log_returns'] = np.log(df['adj_close'] / df['adj_close'].shift(1))
+        df['log_returns'] = np.log(df['adj_close'] / df['adj_close'].shift(1)) * 100
 
         return df
 
@@ -337,7 +337,7 @@ if __name__ == "__main__":
 
     # Test the loader
     loader = SP500DataLoader(symbols=['^GSPC'], start_year=2010, end_year=2024)
-    df = loader.load_all(force_refresh=False)
+    df = loader.load_all(force_refresh=True)
 
     print(f"Data shape: {df.shape}")
     print(f"Date range: {df.index.min()} to {df.index.max()}")
