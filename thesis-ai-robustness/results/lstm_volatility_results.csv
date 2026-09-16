@@ -1,7 +1,7 @@
 Scenario,Accuracy (%)
-Normal,53.449999999999996
-2008 Crisis,54.37
-COVID Crisis,54.98
-Synthetic Extreme,54.94
-Non-linear Squeeze,54.39000000000001
-Structural Break,54.54
+Normal,55.37
+2008 Crisis,56.43
+COVID Crisis,56.85
+Synthetic Extreme,56.48
+Non-linear Squeeze,56.48
+Structural Break,56.3

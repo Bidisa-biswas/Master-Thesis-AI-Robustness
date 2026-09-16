@@ -1,7 +1,7 @@
-Scenario,Accuracy (%),Δ vs Normal (pp),z-statistic,p-value,Significance,Finding
-Normal,53.4,—,—,—,—,Baseline
-2008 Crisis,54.40,+1.00,1.419,0.1560,ns,not significant
-COVID Crisis,55.00,+1.60,2.271,0.0232,*,SIGNIFICANT IMPROVEMENT
-Synthetic Extreme,54.90,+1.50,2.114,0.0345,*,SIGNIFICANT IMPROVEMENT
-Non-linear Squeeze,54.40,+1.00,1.419,0.1560,ns,not significant
-Structural Break,54.50,+1.10,1.561,0.1186,ns,not significant
+Scenario,Raw%,Bal%,HIGH%,Δpp,z,p,Sig,Effect
+Normal,55.37,56.38,43.2,—,—,—,—,baseline
+2008 Crisis,56.43,56.88,42.5,+1.06,1.510,0.1311,ns,negligible
+COVID Crisis,56.85,57.58,42.7,+1.48,2.109,0.0350,*,negligible
+Synthetic Extreme,56.48,56.79,42.9,+1.11,1.581,0.1139,ns,negligible
+Non-linear Squeeze,56.48,55.61,43.2,+1.11,1.581,0.1139,ns,negligible
+Structural Break,56.30,56.62,42.8,+0.93,1.324,0.1854,ns,negligible
